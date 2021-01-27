@@ -24,8 +24,12 @@ Features of images are extracted by division of the image into smaller squares a
 - Second model (further refferanced as "Stronger" or "Adjusted") performs feature extraction by dividing original image into 49 4x4 squares. Then extracted features are divided into training set and validation set in 2/3 proportion. Then model selection is performed with regularisation parameter - lambda and likelihood treshold - theta taken as hiperparameteres. Stochastic gradient descent uses 0.3 as step parameter, 200 as number of epochs and 200 as minibach size. Initial  parameter vector is set for 4.0 for all values.
 - Model quality is measured usinf F_measure standard
 ## Results
+### Quality of certain logistic regresion models meassured using F_measure
 |      |Tshirt/top| Trousers| Pullover| Dress| Coat | Sandal| Shirt| Sneaker| Bag | Ankle Boots| Mean |
 |------|----------|---------|---------|------|------|-------|------|--------|-----|------------|------|
 | weak |   0.743  |  0.862  |  0.528  | 0.643|0.465 | 0.646 | 0.303|  0.680 |0.578|    0.663   | 0.611|
 |strong|   0.751  |  0.913  |   0.524 | 0.718| 0.615| 0.836 | 0.365|  0.767 |0.883|    0.875   | 0.724|
+
+![My image](/img/Results.png)
+## Usage
 
