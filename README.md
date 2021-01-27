@@ -15,6 +15,6 @@ Included code allows for solving the problem of classification 28x28 pixel fashi
 ## Methods:
 The code presents two methods for solving of the problem. Both of them use logistic regression with one vs all approach as classiffication algorithm with lambda2 regularisation.
 Features of images are extracted by division of the image into smaller squares and taking mean of the values within the square.
-[My image](Hoari.github.com/repository/img/MEAN FEATURE EXTRACTION.png)
+![My image](Hoari.github.com/repository/img/MEAN FEATURE EXTRACTION.png)
 
 
