@@ -40,6 +40,7 @@ Features of images are extracted by division of the image into smaller squares a
   - math
 2. Training data should be placed in directory "traindata"
 3. Test data should be placed in directory "testdata"
-4. to generate "Weaker" model parameters run optim1.py results should be displayed in file "params.txt"
-5. to generate "Adjusted" model parameters run optim2.py results should be displayed in file "params_adjusted.txt"
-6. to check efficiency of obtained models and get results run Results.py
+4. to generate "Weaker" model parameters run Optim1.py results should be displayed in file "params.txt"
+5. to generate "Adjusted" model parameters run Optim2.py results should be displayed in file "params_adjusted.txt"
+6. to check efficiency of obtained models and get results run results.py
+7. all .py files must be in the same directory as "traindata" and "testdata"
